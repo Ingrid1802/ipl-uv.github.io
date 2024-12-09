@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-50 content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- events -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- event -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "event" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /events -->
+
+{{ end }}
