@@ -1,5 +1,4 @@
-baseURL = "https://ipl-uv.github.io/"
-#baseURL = "https://isp.uv.es/github"
+baseURL = "https://ingrid1802.github.io/ipl-uv.github.io"
 publishDir = "public"
 
 
